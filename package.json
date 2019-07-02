@@ -1,12 +1,13 @@
 {
-  "name": "vue-components-ssr",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-components-ssr-demo",
+  "version": "0.1.1",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "build:ssr": "vue-cli-service build --target lib --name lib/index src/index.js --mode server",
     "lint": "vue-cli-service lint"
   },
+  "main": "dist/lib/index.umd.js",
   "dependencies": {
     "core-js": "^2.6.5",
     "vue": "^2.6.10"
@@ -18,6 +19,8 @@
     "babel-eslint": "^10.0.1",
     "eslint": "^5.16.0",
     "eslint-plugin-vue": "^5.0.0",
+    "less": "^3.9.0",
+    "less-loader": "^5.0.0",
     "vue-template-compiler": "^2.6.10"
   },
   "eslintConfig": {
