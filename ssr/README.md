@@ -1,6 +1,6 @@
-# app-nuxt
+# ssr
 
-> My rad Nuxt.js project
+> My remarkable Nuxt.js project
 
 ## Build Setup
 

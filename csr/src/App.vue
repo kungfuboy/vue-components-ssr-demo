@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <vue-button>dd</vue-button>
+    <vue-button>My Button</vue-button>
     <img alt="Vue logo" src="./assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js App" />
   </div>

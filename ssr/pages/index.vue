@@ -1,13 +1,13 @@
 <template>
   <div class="container">
-    <vue-button>ffhg</vue-button>
     <div>
+      <el-button type="primary">Element</el-button>
       <logo />
       <h1 class="title">
-        app-nuxt
+        ssr
       </h1>
       <h2 class="subtitle">
-        My rad Nuxt.js project
+        My remarkable Nuxt.js project
       </h2>
       <div class="links">
         <a href="https://nuxtjs.org/" target="_blank" class="button--green">
@@ -26,13 +26,11 @@
 </template>
 
 <script>
-import { VueButton } from 'vue-components-ssr-demo'
 import Logo from '~/components/Logo.vue'
 
 export default {
   components: {
-    Logo,
-    VueButton
+    Logo
   }
 }
 </script>
@@ -48,8 +46,8 @@ export default {
 }
 
 .title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
   font-size: 100px;
