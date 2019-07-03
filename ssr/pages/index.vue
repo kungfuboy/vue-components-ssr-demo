@@ -2,6 +2,7 @@
   <div class="container">
     <div>
       <el-button type="primary">Element</el-button>
+      <vue-button>My Button</vue-button>
       <logo />
       <h1 class="title">
         ssr
